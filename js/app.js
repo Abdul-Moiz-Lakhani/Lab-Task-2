@@ -239,3 +239,23 @@ userDeleteIndex = userDeleteIndex-1;
         console.log("\nUpdated Array:\n\n" + colorNames);
         }
     }
+
+// Question # 13
+
+var studentScores = [ 100, 30, 25, 79, 87, 99, 120, 7 ];
+
+console.log("\n\nScores of Students: " + studentScores);
+
+studentScores = studentScores.sort(function(a, b){return a-b});
+
+console.log("\nOrdered Scores of Students: " + studentScores);
+
+// Question # 14
+
+var fruitsList = [ "Pineapple", "Banana", "Apple", "Stawberry", "Orange" ];
+
+console.log("\n\nFruits List:\n" + fruitsList);
+
+fruitsList = fruitsList.sort();
+
+console.log("\nOrdered Fruits List:\n" + fruitsList);
