@@ -6,7 +6,11 @@ Batch    : 4.1 (Bright Section)
 
 // Question # 1
 
+var jsLiteralNotation = [];
+
 // Question # 2
+
+var jsObjNotation = new Array();
 
 // Question # 3
 
@@ -306,6 +310,8 @@ console.log("Out:\n" + devices.pop());
 console.log("Out:\n" + devices.pop());
 
 // Question # 19
+
+var phoneManufacturers = [ "Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier" ];
 
 // Question # 20
 
