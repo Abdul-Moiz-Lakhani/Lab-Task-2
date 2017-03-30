@@ -259,3 +259,73 @@ console.log("\n\nFruits List:\n" + fruitsList);
 fruitsList = fruitsList.sort();
 
 console.log("\nOrdered Fruits List:\n" + fruitsList);
+
+// Question # 15
+
+var cities = [ "Karachi", "Lahore", "Quetta", "Peshawar", "Faisalabad", "Islamabad" ];
+
+var selectedCities = [ cities[5], cities[2] ];
+
+console.log("\n\nCities List:\n" + cities);
+console.log("\nSelected Cities List:\n" + selectedCities);
+
+// Question # 16
+
+var stringArr = [ "This", " is", " my", " cat" ];
+var string = stringArr[0] + stringArr[1] + stringArr[2] + stringArr[3];
+
+console.log("\n\nString Array:\n" + stringArr);
+console.log("\nString:\n" + string);
+
+// Question # 17
+
+var devices = [];
+devices.push("Keyboard");
+devices.push("Mouse");
+devices.push("Printer");
+devices.push("Monitor");
+
+console.log("\n\nDevices:\n" + devices);
+console.log("\nOut:\n" + devices.shift());
+console.log("Out:\n" + devices.shift());
+console.log("Out:\n" + devices.shift());
+console.log("Out:\n" + devices.shift());
+
+// Question # 18
+
+var devices = [];
+devices.push("Keyboard");
+devices.push("Mouse");
+devices.push("Printer");
+devices.push("Monitor");
+
+console.log("\n\nDevices:\n" + devices);
+console.log("\nOut:\n" + devices.pop());
+console.log("Out:\n" + devices.pop());
+console.log("Out:\n" + devices.pop());
+console.log("Out:\n" + devices.pop());
+
+// Question # 19
+
+// Question # 20
+
+var multiArr = 
+[
+    [ 2, 4, 6 ],
+    [ 1, 3, 7 ],
+];
+
+// Question # 20
+
+var multiArr =
+[
+    [ "0 ", "1 ", "2 ", "3" ],
+    [ "1 ", "0 ", "1 ", "2" ],
+    [ "2 ", "1 ", "0 ", "1" ]
+];
+
+console.log("\n\nMultidimentional Array:");
+console.log("-----------------------");
+console.log("\n" + multiArr[0][0] + multiArr[0][1] + multiArr[0][2] + multiArr[0][3] );
+console.log( multiArr[1][0] + multiArr[1][1] + multiArr[1][2] + multiArr[1][3] + "\n");
+console.log( multiArr[2][0] + multiArr[2][1] + multiArr[2][2] + multiArr[2][3] );
